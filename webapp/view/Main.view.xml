@@ -1,0 +1,17 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns="sap.m"
+	xmlns:smartField="sap.ui.comp.smartfield" controllerName="sap.training.controller.Main" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="Demo Smart Controls">
+				<content>
+					<f:SimpleForm layout="ResponsiveGridLayout" editable="true">
+						<f:content>
+							<smartField:SmartLabel labelFor="idName"/>
+							<smartField:SmartField value="{Name}" id="idName" />
+						</f:content>
+					</f:SimpleForm>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
